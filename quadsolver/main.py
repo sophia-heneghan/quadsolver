@@ -12,7 +12,7 @@ This module has two functions, which can be called as follows.
 import sys
 import cmath
 
-
+import cli
 
 def solve_quadratic(a, b, c):
     """Solve quadratic equation
@@ -25,7 +25,7 @@ def solve_quadratic(a, b, c):
     """
     discriminant = b ** 2 - 4 * a * c
     x1 = (-b + cmath.sqrt(discriminant)) / 2 * a
-    x2 = (-b + cmath.sqrt(discriminant)) / 2 * a
+    x2 = (-b - cmath.sqrt(discriminant)) / 2 * a
     return x1, x2
 
 
@@ -35,7 +35,9 @@ def main():
     :return 0: exit OK
     :rtype: int
     """
-    print(f"{solve_quadratic(1, 2, 1) = }")
+    args = cli.parse_args()
+    a, b, c =args.coefficients
+    print(f"{solve_quadratic(a, b, c) = }")
     return 0
 
 

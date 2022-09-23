@@ -1,0 +1,9 @@
+setup.py
+quadsolver/__init__.py
+quadsolver/cli.py
+quadsolver/main.py
+quadsolver/tests.py
+quadsolver.egg-info/PKG-INFO
+quadsolver.egg-info/SOURCES.txt
+quadsolver.egg-info/dependency_links.txt
+quadsolver.egg-info/top_level.txt

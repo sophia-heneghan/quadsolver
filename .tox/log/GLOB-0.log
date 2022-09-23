@@ -1,0 +1,47 @@
+action: GLOB, msg: packaging
+cwd: /home/sophia/PycharmProjects/quadsolver
+cmd: /usr/bin/python3.10 setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing quadsolver.egg-info/PKG-INFO
+writing dependency_links to quadsolver.egg-info/dependency_links.txt
+writing top-level names to quadsolver.egg-info/top_level.txt
+reading manifest file 'quadsolver.egg-info/SOURCES.txt'
+writing manifest file 'quadsolver.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: if 'author' supplied, 'author_email' should be supplied too
+
+creating quadsolver-0.1.0
+creating quadsolver-0.1.0/quadsolver
+creating quadsolver-0.1.0/quadsolver.egg-info
+copying files to quadsolver-0.1.0...
+copying setup.py -> quadsolver-0.1.0
+copying quadsolver/__init__.py -> quadsolver-0.1.0/quadsolver
+copying quadsolver/cli.py -> quadsolver-0.1.0/quadsolver
+copying quadsolver/main.py -> quadsolver-0.1.0/quadsolver
+copying quadsolver/tests.py -> quadsolver-0.1.0/quadsolver
+copying quadsolver.egg-info/PKG-INFO -> quadsolver-0.1.0/quadsolver.egg-info
+copying quadsolver.egg-info/SOURCES.txt -> quadsolver-0.1.0/quadsolver.egg-info
+copying quadsolver.egg-info/dependency_links.txt -> quadsolver-0.1.0/quadsolver.egg-info
+copying quadsolver.egg-info/top_level.txt -> quadsolver-0.1.0/quadsolver.egg-info
+Writing quadsolver-0.1.0/setup.cfg
+creating '.tox/dist/quadsolver-0.1.0.zip' and adding 'quadsolver-0.1.0' to it
+adding 'quadsolver-0.1.0'
+adding 'quadsolver-0.1.0/quadsolver'
+adding 'quadsolver-0.1.0/quadsolver.egg-info'
+adding 'quadsolver-0.1.0/PKG-INFO'
+adding 'quadsolver-0.1.0/setup.py'
+adding 'quadsolver-0.1.0/setup.cfg'
+adding 'quadsolver-0.1.0/quadsolver/main.py'
+adding 'quadsolver-0.1.0/quadsolver/cli.py'
+adding 'quadsolver-0.1.0/quadsolver/tests.py'
+adding 'quadsolver-0.1.0/quadsolver/__init__.py'
+adding 'quadsolver-0.1.0/quadsolver.egg-info/top_level.txt'
+adding 'quadsolver-0.1.0/quadsolver.egg-info/SOURCES.txt'
+adding 'quadsolver-0.1.0/quadsolver.egg-info/PKG-INFO'
+adding 'quadsolver-0.1.0/quadsolver.egg-info/dependency_links.txt'
+removing 'quadsolver-0.1.0' (and everything under it)
